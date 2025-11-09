@@ -14,5 +14,5 @@ echo Linux swap #partition type
 echo w #write
 ) | sudo fdisk
 
-sudo mkswap /dev/sda4
-swapon /dev/sda4
+#sudo mkswap /dev/sda4
+#swapon /dev/sda4
