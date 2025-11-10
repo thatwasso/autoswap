@@ -3,11 +3,11 @@
 (
 echo e #resize partitions
 echo #accept default:3
-echo +6G #root partition 6GB
+echo +50G #root partition
 echo n #create partition
 echo #accept default:4
 echo #first sector
-echo +2G #partition size 2GB
+echo +10G #swap size
 echo t #partition type
 echo #accept default:4
 echo Linux swap #partition type
